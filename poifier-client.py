@@ -36,7 +36,7 @@ def parseArguments():
     parser.add_argument('--poifier-token',
         dest='poifier_token',
         help='Auth token, request token via POIfier portal',
-        required=True,
+        required=False,
         type=str)
     parser.add_argument('--poifier-server',
         dest='poifier_server',
